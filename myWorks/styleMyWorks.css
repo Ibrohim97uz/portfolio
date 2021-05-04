@@ -1,5 +1,5 @@
 
-
+@import url('/style.css');
 .portfolio__title{
     display: flex;
     justify-content: center;
