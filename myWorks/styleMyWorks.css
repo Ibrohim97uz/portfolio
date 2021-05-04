@@ -1,0 +1,164 @@
+
+
+.portfolio__title{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-bottom: 50px 0;
+    background-color: rgb(12, 211, 194);
+}
+
+.portfolio_section img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+.form__validation h1{
+    font-family: sans-serif;
+}
+.form__validation-link{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 10px;
+    justify-items: center;
+    background-color: #9c959563;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 10px;
+}
+.form__validation-link:hover{
+    background-color: #ffb7b7;
+    cursor:pointer;
+}
+
+.calculator h1{
+    font-family: sans-serif;
+}
+.calculator-link{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 10px;
+    justify-items: center;
+    background-color: #9c959563;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.calculator-link:hover{
+    background-color: #ffb7b7;
+    cursor:pointer;
+}
+.clock h1{
+    font-family: sans-serif;
+}
+.clock-link{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-top: 50px 10px;
+    justify-items: center;
+    background-color: #9c959563;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 10px;
+}
+.clock-link img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.clock-link:hover{
+    background-color: #ffb7b7;
+    cursor:pointer;
+}
+.rosary h1{
+    font-family: sans-serif;
+}
+.rosary-link{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-top: 50px;
+    justify-items: center;
+    background-color: #9c959563;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 10px;;
+}
+.rosary-link img {
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+}
+.rosary-link:hover{
+    background-color: #ffb7b7;
+    cursor:pointer;
+}
+
+@media(max-width:576px) {
+    .portfolio__title h1 {
+        font-size: 30px;
+    }
+    .portfolio_section img{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+    
+    }
+    .form__validation-link{
+        grid-template-columns: repeat(1,1fr );
+        text-align: center;
+    }
+    .form__validation-link img{
+        order:1;
+    }
+    .form__validation-link h1{
+        order:2;
+        padding: 20px 0;
+    }
+    
+
+    .calculator-link{
+        grid-template-columns: repeat(1,1fr );
+        text-align: center;
+    }
+    .calculator-link img{
+        order:1;
+    }
+    .calculator-link h1{
+        order:2;
+        padding: 20px 0;
+    }
+
+
+    .clock-link{
+        grid-template-columns: repeat(1,1fr );
+        text-align: center;
+    }
+    .clock-link img{
+        order:1;
+    }
+    .clock-link h1{
+        order:2;
+        padding: 20px 0;
+    }
+
+
+    .rosary-link{
+        grid-template-columns: repeat(1,1fr );
+        text-align: center;
+        
+    }
+    .rosary-link img{
+        order:1;
+    }
+    .rosary-link h1{
+        order:2;
+        padding: 20px 0;
+    }
+
+}
