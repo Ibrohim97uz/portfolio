@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient( rgb(9, 14, 56),rgb(15, 22, 87));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-validation{
+    position: relative;
+    width: 400px ;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.form-validation__title{
+    color:#fff;
+    text-align: center;
+    font-family: monospace;
+    padding: 40px;
+}
+.form-validation__login{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #928383;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+::placeholder{
+    color:#fff;
+}
+.form-validation__password{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #928383;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+.form-validation__btn{
+    width: 100%;
+    background-color: rgb(9, 9, 240);
+    padding: 15px;    
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.form-validation__btn:hover{
+    background-color: rgb(66, 77, 231);
+}
+#err{
+    position: absolute;
+    top: 165px;
+    font-size: 14px;
+    color: red;
+}
+.err{
+    border-bottom: 1px solid red;
+}
+.valid{
+    border-bottom: 1px solid rgb(0, 255, 76);
+}
+#err2{
+    position: absolute;
+    top: 245px;
+    font-size: 13px;
+    color: red;
+}

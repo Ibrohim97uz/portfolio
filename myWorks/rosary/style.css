@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 1000vh;
+    width: 100%;
+}
+.tasbeh{
+    position: relative;
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 20px;
+}
+.ekran{
+    position: absolute;
+    bottom: 202px;
+    right: 32px;
+    border-radius: 20px;
+}
+.oyna{
+    width: 130px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+.qoshish{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 129px;
+    right: 78px;
+}
+.nolga{  
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    bottom: 75px;
+    right: 89px;    
+} 

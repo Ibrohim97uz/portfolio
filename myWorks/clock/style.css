@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'DS-Digital';
+    src: url('./fonts/DS-Digital-Bold.eot');
+    src: url('./fonts/DS-Digital-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/DS-Digital-Bold.woff') format('woff'),
+        url('./fonts/DS-Digital-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'DS-Digital';
+    display: flex;
+    height: 100vh;
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 22, 117);
+}
+.header-date{
+    background-color: #000;
+    color: red;
+    display: inline-block;
+    padding: 1rem;
+    width: 28rem;
+    text-align: center;
+    border-radius: 2rem;
+    text-shadow: 0 0 5rem;
+
+
+}
+.header-date h1{
+    font-size: 6rem;
+}
