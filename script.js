@@ -1,8 +1,19 @@
 document.querySelector('.header__logo').addEventListener('click', function () {
+      transformatsiya();
     document.querySelector('.header__link-mobile-outside').classList.toggle('show');
 });
 
 
+ let line1 = document.querySelector('.btn-line-1');
+ let line2 = document.querySelector('.btn-line-2');
+
+
+
+    function transformatsiya(){
+        line1.classList.toggle('transformat');
+        line2.classList.toggle('transformatm');
+        line2.classList.toggle('siljish');
+    }
 
     
  function setDate(){
@@ -47,5 +58,4 @@ setInterval(
 
     },1000
 ); 
-
 
