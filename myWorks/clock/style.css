@@ -50,3 +50,6 @@ body{
 .header-date h1{
     font-size: 6rem;
 }
+.time{
+    padding: 10px;
+}
